@@ -1,0 +1,217 @@
+body {
+  background-color: white;
+}
+
+.section .title {
+  border-bottom: 2px solid rgb(210, 210, 210);
+}
+
+h1 {
+font-family: 'Noto Serif', serif;
+}
+
+h2 {
+
+}
+
+p {
+font-family: 'Merriweather', serif;
+}
+
+p1 {
+  font-size: 15px;
+}
+
+/* Nav Bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666666;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+  background-color: #666666;
+}
+
+.active {
+  background-color: #999999;
+}
+
+.img1 {
+  width: 450px;
+}
+
+/* Resources Page */
+
+/* Resources Container */
+
+.container-p1 {
+  height: 400px;
+  background-image: linear-gradient(to right, #92BBD0, #9294D0);
+}
+
+/* Resources Title */
+
+.res-title {
+  color: #636363;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 4px 2px #8987CC;
+  position: absolute;
+  font-size: 125px;
+  margin-left: 100px;
+  margin-top: 130px;
+}
+
+/* Resources Introduction */
+
+.port-intro {
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+/* Resources Container */
+
+.container-pro1 {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right, #8289C3, #2F3D89);
+}
+
+.container-pro1 > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 500px;
+  margin: 40px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+/* Project 1 */
+
+#proimg1 {
+  width: 280px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.pro1desc {
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* Project 2 */
+
+#proimg2 {
+  width: 280px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.pro2desc {
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* Project 3 */
+
+#proimg3 {
+  width: 280px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.pro3desc {
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* Bottom code for Test Quiz */
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+	font-size: 20px;
+	font-family: 'Work Sans', sans-serif;
+	color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #444;
+  color: #fff;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+	font-size: 22px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: #38a;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}

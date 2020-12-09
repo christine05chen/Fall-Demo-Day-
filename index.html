@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+  </head>
+
+  <!-- Temporary Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  
+  <body>
+
+    <!-- Navigation Bar -->
+
+      <nav>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="wellness.html">Wellness</a></li>
+        <li><a href="testquiz.html">Test Quiz</a></li>
+      </ul>
+    </nav>
+   
+
+    <!-- Introduction/Overview -->
+    <h1 class="title">Mental Health 101</h1>
+    <hr noshade size="10">
+      <h2 class="subtitle">What is Mental Health?</h2>
+      <p class="content">Mental health refers to our condition in relation to our pyschological, emotional, and social well-being. It dictates our actions and inner thoughts - notably our ability to cope with stress and make cognitive decisions.
+      </p>
+      <p class="content">Among the most common disorders, however, are depression, schizophrenia, anxiety, and bipolar disorder. The causes are dependent on an individual's own body and their life experiences such as abuse, trauma, grief from loss, loneliness, or even their genes. However, an individual's mental health can also be impacted by their immediate environment - especially when it involves stress. 
+      </p>
+      <p class="content">For example, individuals who are from low-income backgrounds or have strained interpersonal relationships are more likely to experience mental issues.  
+      </p> 
+      <img class="img1" src="https://d2ebzu6go672f3.cloudfront.net/media/content/images/p4_BrainPuzzle_WL1808_gi946594190.jpg" alt="Brain puzzle">
+      <hr noshade size="10">
+    </section>
+
+    <section class="intro2">
+      <h2 class="title">Importance of Mental Health</h2>
+      <p class="content">Mental health is important because it plays a significant role in our lives. It can dictate our thoughts and actions, and directly impact our physical, psychological, and emotional health. </p>
+      <img src="https://cdn.mindful.org/stress-3.png" alt="Stress" width="600" length="600">
+      <hr noshade size="10">
+    </section>
+
+<!--This section will contain a bar graph of types of disorders listed here: https://ourworldindata.org/mental-health-->
+
+  </section class = "section">
+    <h2 class = "title"> Types of Disorders</h2>
+    <p class = "content"> This bar graph visualizes how many people in the world were diagnosed with different types of mental disorders back in 2017.
+    </p>
+    <canvas id="disorder-chart-1"
+    width = "200" height="125"></canvas>
+    <p1 class="content">Data source: https://ourworldindata.org/mental-health
+    </p1>
+    <hr noshade size="10">
+  </section>
+  
+<!-- Resources:
+ https://htmlcolorcodes.com/ (rgb or hex colors)
+ https://fonts.google.com/ (fonts) -->
+     
+<!-- This section will contain a pie chart of types of issues listed here: https://www.jmir.org/2020/9/e21279/ -->
+
+    <section class="section">
+      <h2 class="title">College Students Amid the COVID-19 Pandemic</h2>
+      <p class="content">This pie chart visualizes the impact of the many types of mental health struggles that college students endure, as they take online classes during the 2020 COVID-19 pandemic.
+      </p>
+      <p class="content">These symptoms were taken from a sample of 195 participants, from a study done by the Journal of Medical Internet Research.
+      </p>
+      <canvas id="issues-chart-1" width="100" height="50"></canvas>
+
+      <h2 class="title">Coping Methods</h2>
+      
+      <p class="content">This second graph depicts some of the coping mechanisms used by these college students to handle the additional stress brought by Covid-19.
+      </p>   
+      <p class="content">This graph incorporates a smaller sample of 138 college students.
+      </p>
+      <canvas id="issues-chart-2" width="200" height="100"></canvas>
+      <p class="content">According to the study by JMIR, 105 out of 138 college students adopted self-management techniques to cope with the pandemic, and with 47 seeking support from others.
+      </p> 
+      <p class="content">However it is interesting that a vast majority of 128 students did not seek professional help, likely due to their own personal reasons.
+      </p>
+      <hr noshade size="10">
+
+<!-- Specific coping methods -->
+      <section class="section">
+      <h2 class="title">Self Management</h2>
+    
+      <p class="content">Here is a polar area chart displaying the different self-management techniques that these college students used.
+      </p>
+      <canvas id="management-chart-3" width="100" height="100"></canvas>
+
+      <p1 class="content">Data source: https://www.jmir.org/2020/9/e21279/
+      </p1>
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
